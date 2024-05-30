@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>949c02b0acda4afbb7076fb248504c1b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" id="hl1iyT5e0avA">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers[sentencepiece] datasets sacrebleu rouge_score py7zr <span class="op">-</span>q</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BIHO6u2Z3hVu" data-outputId="7e080ef9-f360-4eec-f378-6f59af6752a6">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#checking the GPU</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>nvidia<span class="op">-</span>smi</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Thu May 30 09:03:00 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla T4                       Off | 00000000:00:04.0 Off |                    0 |
+| N/A   43C    P8               9W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="PVBAzjhe3zTn" data-outputId="82d6041f-7a10-43d2-ec57-b4453158237c">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline, set_seed</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset, load_metric</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> AutoModelForSeq2SeqLM, AutoTokenizer</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.tokenize <span class="im">import</span> sent_tokenize</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&quot;punkt&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>True</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="eO7GaMoEGVkk">
+<p>Need to restart the runtime after installing the below libraries once
+so that things gets updated</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="wRT3ZYJAugXS" data-outputId="13abd8e5-e68b-4c9e-e27f-573e1b65bf52">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers[torch]</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install accelerate<span class="op">&gt;=</span><span class="fl">0.21.0</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip show accelerate</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip show transformers</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: transformers[torch] in /usr/local/lib/python3.10/dist-packages (4.41.1)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (3.14.0)
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.23.0 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (0.23.1)
+Requirement already satisfied: numpy&gt;=1.17 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (1.25.2)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (24.0)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (2024.5.15)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (2.31.0)
+Requirement already satisfied: tokenizers&lt;0.20,&gt;=0.19 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (0.19.1)
+Requirement already satisfied: safetensors&gt;=0.4.1 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (0.4.3)
+Requirement already satisfied: tqdm&gt;=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (4.66.4)
+Requirement already satisfied: torch in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (2.3.0+cu121)
+Requirement already satisfied: accelerate&gt;=0.21.0 in /usr/local/lib/python3.10/dist-packages (from transformers[torch]) (0.30.1)
+Requirement already satisfied: psutil in /usr/local/lib/python3.10/dist-packages (from accelerate&gt;=0.21.0-&gt;transformers[torch]) (5.9.5)
+Requirement already satisfied: fsspec&gt;=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.23.0-&gt;transformers[torch]) (2023.6.0)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.23.0-&gt;transformers[torch]) (4.11.0)
+Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (1.12)
+Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (3.3)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (3.1.4)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.105)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.105)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.105)
+Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (8.9.2.26)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.3.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (11.0.2.54)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (10.3.2.106)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (11.4.5.107)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.0.106)
+Requirement already satisfied: nvidia-nccl-cu12==2.20.5 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (2.20.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (12.1.105)
+Requirement already satisfied: triton==2.3.0 in /usr/local/lib/python3.10/dist-packages (from torch-&gt;transformers[torch]) (2.3.0)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in /usr/local/lib/python3.10/dist-packages (from nvidia-cusolver-cu12==11.4.5.107-&gt;torch-&gt;transformers[torch]) (12.5.40)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers[torch]) (3.3.2)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers[torch]) (3.7)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers[torch]) (2.0.7)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers[torch]) (2024.2.2)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2-&gt;torch-&gt;transformers[torch]) (2.1.5)
+Requirement already satisfied: mpmath&gt;=0.19 in /usr/local/lib/python3.10/dist-packages (from sympy-&gt;torch-&gt;transformers[torch]) (1.3.0)
+Name: accelerate
+Version: 0.30.1
+Summary: Accelerate
+Home-page: https://github.com/huggingface/accelerate
+Author: The HuggingFace team
+Author-email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5b213a383375362e3e37373e291b332e3c3c32353c3d3a383e753834">[email&#160;protected]</a>
+License: Apache
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: huggingface-hub, numpy, packaging, psutil, pyyaml, safetensors, torch
+Required-by: 
+Name: transformers
+Version: 4.41.1
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c4b0b6a5aab7a2abb6a9a1b6b784acb1a3a3adaaa3a2a5a7a1eaa7ab">[email&#160;protected]</a>
+License: Apache 2.0 License
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by: 
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:35}"
+id="G0kj0wRx3-rO" data-outputId="6de67c41-86ef-4ed8-da8e-1ffa7497ef64">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> <span class="st">&quot;cuda&quot;</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">&quot;cpu&quot;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>device</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code" id="smV4gWVH4s4R">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#model used</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>model_ckpt <span class="op">=</span> <span class="st">&quot;google/pegasus-cnn_dailymail&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:304,&quot;referenced_widgets&quot;:[&quot;a5efb864119a47f28f580b97446056b3&quot;,&quot;72fbe379d88a42288d2dd02cec3b4af2&quot;,&quot;741882443adc423180966632d2c70155&quot;,&quot;4bd3c16e8e734ad08f480395c4a5d281&quot;,&quot;8a3b1ba602274220a2609dd79902146c&quot;,&quot;fb17ae7d9acd452498ee7792f5ee6e26&quot;,&quot;5f7a2f1e36804986b6b7c93d3d0bd0d0&quot;,&quot;fd0ff7e9d0404766a09aa2b489500b68&quot;,&quot;1f6b55dac4924da7a956695159f4e343&quot;,&quot;6351b4dd911747e9aaffef093f22dbd2&quot;,&quot;b0c6b19e385846418e4178523f4f6f33&quot;,&quot;06bf06eb082c49aeb03a87b63eaac122&quot;,&quot;0bcbf3a26ede4e2abe7dece11c1e89ff&quot;,&quot;2092aff9b6854ed994db8e7524b60a8d&quot;,&quot;7ebe155a3e4d4fc0b2d222fea1c87e6d&quot;,&quot;e11405c6e2a44d8887bf5c7b510e5602&quot;,&quot;9e7fb36d2fc34ce49396f48ade42f713&quot;,&quot;38e41923598e4e248e1dae0b2a1157b8&quot;,&quot;ffbfd20c18324428abf3f4c5af3f9231&quot;,&quot;74f15845589b4613bacf21cd5edc786b&quot;,&quot;cc35cc60c23e43149b4180bb3d709e46&quot;,&quot;e3b64808d4564136abd9de808db3114d&quot;,&quot;60033afb35904839be85797e5aeea341&quot;,&quot;5c0adc18022c48b0be400272ade4b456&quot;,&quot;34cf71ed037a4a1896a82e85b6ceb20e&quot;,&quot;add1da2d4eb34f16b30aa3ce46d26a8d&quot;,&quot;ba234dae23244be6b7266aef594bec1c&quot;,&quot;fa97e022cfac41b9927bc4bf590c15ed&quot;,&quot;a3481e04422946f783ae0aa5f4b213e7&quot;,&quot;00cee8c50f4f4d2c9719e91bde24499e&quot;,&quot;25887fbcf5284e249fcadf0bd7ec84b3&quot;,&quot;8c01222898674074ac2827cb0e60ce6c&quot;,&quot;a006052f8c9147108d4715c5ea3843f5&quot;,&quot;af817d31e54547d0a902b14be5200f5d&quot;,&quot;9986e3fd946b4607914c0923336d2eaf&quot;,&quot;18470330e38640c4b4115f98e36802ff&quot;,&quot;abe0009fd537400a87d25ed6b96477e0&quot;,&quot;7f76feea6a37440c953e97fe179d1a4f&quot;,&quot;1709c4c1127e42c0b029c5d53864bdb4&quot;,&quot;3085eeaeee7a4220ae77c27eb8a2a2da&quot;,&quot;6379e2bf3927404f8bc72a1bc95ff810&quot;,&quot;ee7b32286d68441e83a88024b3bf6164&quot;,&quot;ad5513b91a134451810099e80e19f0cc&quot;,&quot;ac70af41ce6749769bd3db3cf54e242d&quot;]}"
+id="pSnjc19n4-7X" data-outputId="fd8c1f66-277b-4474-a1a0-6b83c1b34bd6">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#initializing tokenizer</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_ckpt)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_token.py:89: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;a5efb864119a47f28f580b97446056b3&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;06bf06eb082c49aeb03a87b63eaac122&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;60033afb35904839be85797e5aeea341&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;af817d31e54547d0a902b14be5200f5d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:136,&quot;referenced_widgets&quot;:[&quot;79f01a46d31a42c8b096d1cda1cbd605&quot;,&quot;e1c01aaca3d246fa9f7cfd1c08ecab04&quot;,&quot;314bc71ff9d3490abd2cc3f740a5c782&quot;,&quot;2d89aa7a2400413e82eededc64fe6d9a&quot;,&quot;ef921c620a2a4ae29165b5f3f2625c20&quot;,&quot;62134af8a88942ee99aa8c87e1cb5609&quot;,&quot;55888a924aa94b0e80a5c59e3f99a6e6&quot;,&quot;7149f62735214e369b0d12e8f3fc195d&quot;,&quot;fa53e34fbc39406a8499de7d037a7b19&quot;,&quot;98a063e419744f1eb60aa4e5102498fc&quot;,&quot;80ab88a36b714326846079605eec5d55&quot;,&quot;07cdaf702a33492d97d4dd6be0a8bd81&quot;,&quot;8007ad89bf1140dab08117c3f63f875e&quot;,&quot;691ee5878f1247ebb35227e7b0aa0c8d&quot;,&quot;41f875ed729e4739875c990ca7e9c868&quot;,&quot;578d79bf39174365aff1a67122009c2a&quot;,&quot;ea27fda7634d481ea4589c060a1b407f&quot;,&quot;a99b24d9232c408985bd1e41105901f1&quot;,&quot;389388b518554e2da2a0c19f3037e421&quot;,&quot;974dac3eafeb47369c4f860954878aaa&quot;,&quot;19acd1bb38bf44de9bd5c01aa01c9bb3&quot;,&quot;f32d6456c5874369919dfd41c9cdb7ca&quot;]}"
+id="yzE4Da0p5IgM" data-outputId="50c24de9-e0a3-4027-e5ce-518255a82f44">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#downloading the model</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>model_pegasus <span class="op">=</span> AutoModelForSeq2SeqLM.from_pretrained(model_ckpt).to(device)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;79f01a46d31a42c8b096d1cda1cbd605&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>Some weights of PegasusForConditionalGeneration were not initialized from the model checkpoint at google/pegasus-cnn_dailymail and are newly initialized: [&#39;model.decoder.embed_positions.weight&#39;, &#39;model.encoder.embed_positions.weight&#39;]
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;07cdaf702a33492d97d4dd6be0a8bd81&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:541,&quot;referenced_widgets&quot;:[&quot;4d58781100e34a71bccb0d07ee70642d&quot;,&quot;5032a042088b4983a8132c953032c8a8&quot;,&quot;f3e0b530b24d4269a5e9657b054e6696&quot;,&quot;f57562407041408aa5e836d485c29dc0&quot;,&quot;226628f96982423ab35fd60ac1e54565&quot;,&quot;7c7c4a4ff47d4d6bb47266146fea7a66&quot;,&quot;2a7ef4d905484733bf65b10e60782111&quot;,&quot;2787a1d7ae2b4a2b821b1ca84257f6ef&quot;,&quot;e2fb9c4100794c2fa36d4a28498c9fbf&quot;,&quot;bb681af1aa6e4775b4c73b6d8bad4710&quot;,&quot;fbbfe88cc68f4e1abc629a0188cc0cd5&quot;,&quot;a54cee9bbdfa4a288bc57c847d12d042&quot;,&quot;1afd1c9f89784184ac7b5c96f0dab2d3&quot;,&quot;7d2bc6b5c7cd4280aa108a9e33d6b9b4&quot;,&quot;8f13fc63f8664e1e99170940330b3be6&quot;,&quot;dccfb8e2d5bd4d8bb842fc6bab22d1b2&quot;,&quot;a5dea0440f9b4c3a9cc333bd067edd30&quot;,&quot;1883aa3e24f948baab6510e9f392a65d&quot;,&quot;8705ad3dcf3c4276b612defd8bced751&quot;,&quot;147d3c03dcab4def9884351130c7a82e&quot;,&quot;b474cc00538a489e8d4cc2de45db4a53&quot;,&quot;37b4ab7f00e44999b438f241d4cf7641&quot;,&quot;700ba9269b5342be9b66811ffef507b4&quot;,&quot;a868e72023374756acc222d19ee3394f&quot;,&quot;1e80c00567684ab6810e6a1484efaa4e&quot;,&quot;a6a7dd55b4f845348067502a82e77d92&quot;,&quot;994045da4f5d413f8448905770061ffd&quot;,&quot;15781a3841bb4897824cf25be55fed80&quot;,&quot;1e5f7dd46607473ca72376827f78263b&quot;,&quot;e5fce85f25db41df960962adc8b1230e&quot;,&quot;13657950e2a34a35a679372a3d4a68e9&quot;,&quot;86bb903d4f09495485be9e4e682dcbeb&quot;,&quot;e90ba5c1146f4ff2849f0d974f73444b&quot;,&quot;ce2c802d045b4c768f84ed50ee731e66&quot;,&quot;fe6022155870404fba34e6b90f8d648d&quot;,&quot;50ef33b0dca042718b0db493471b22c6&quot;,&quot;b954c1da6cfa4294b14558eeddbf4ca2&quot;,&quot;82c4ad1d92e344ab85169ed1ff667846&quot;,&quot;5aaa5d6ecda644e190a0943108ed1e26&quot;,&quot;11d7354080444e5187ce8381131ed65f&quot;,&quot;1fd01a2038ef4df4aa44a5a12734f99e&quot;,&quot;ee220fef85ea4f13bab5ff16b9ddf4c3&quot;,&quot;506b2796c0194b55944b6f1ef498fcf9&quot;,&quot;ab1209a0a7ad438ca20896f380e2ff26&quot;,&quot;1ad43b549656477c94d1b5bd0178d7f0&quot;,&quot;e1684ab99e1d4c97b0520a6722463f60&quot;,&quot;d784673db03247e4804e9e47948c5992&quot;,&quot;0eec3b19466a493db3e8e518af341334&quot;,&quot;5351214167834ca5bbf58a670c1176e4&quot;,&quot;7e7d3231d37a4f229ba7d60fbb6cf9ef&quot;,&quot;10076d9e7ccf4093b7b67097d0676cc1&quot;,&quot;9623a358d748489db167220a609cde24&quot;,&quot;3268869dd7f74a39a93a8377414b0886&quot;,&quot;cd99054fccfc412da727a9316eb07a71&quot;,&quot;bdacdab8629f4cc988c998e4eb3de345&quot;,&quot;9f748006ad584e82916424c28f84e42b&quot;,&quot;335c9b1bbfb7443aa2a603f0c6fe28a3&quot;,&quot;4755ae0565ab439e956c423387a2996d&quot;,&quot;c50116f868db46bda60d65d13da3352c&quot;,&quot;a875675a587a4ac5abe242f768b5c194&quot;,&quot;0f00e4da85b84a98b46209407cdef830&quot;,&quot;53f1461ce6a7470face766fbf6aaf0a2&quot;,&quot;b10d97d00cc145cca5616fe9a81a6e69&quot;,&quot;62ac7916169c4f0b870a1ac7507cd0f4&quot;,&quot;f100d1cfd0b840748db2410e0355eab3&quot;,&quot;f0a02c2ea1e84171a2b50ba479eb7bc7&quot;]}"
+id="4y9EqfwU5X-u" data-outputId="0c119833-3184-49be-d06e-6c59a2c83838">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#loading data - https://huggingface.co/datasets/samsum</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>dataset_samsum <span class="op">=</span> load_dataset(<span class="st">&quot;samsum&quot;</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>dataset_samsum</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/datasets/load.py:1486: FutureWarning: The repository for samsum contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/samsum
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;4d58781100e34a71bccb0d07ee70642d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;a54cee9bbdfa4a288bc57c847d12d042&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;700ba9269b5342be9b66811ffef507b4&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ce2c802d045b4c768f84ed50ee731e66&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;1ad43b549656477c94d1b5bd0178d7f0&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9f748006ad584e82916424c28f84e42b&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>DatasetDict({
+    train: Dataset({
+        features: [&#39;id&#39;, &#39;dialogue&#39;, &#39;summary&#39;],
+        num_rows: 14732
+    })
+    test: Dataset({
+        features: [&#39;id&#39;, &#39;dialogue&#39;, &#39;summary&#39;],
+        num_rows: 819
+    })
+    validation: Dataset({
+        features: [&#39;id&#39;, &#39;dialogue&#39;, &#39;summary&#39;],
+        num_rows: 818
+    })
+})</code></pre>
+</div>
+</div>
+<div class="cell code" id="7FG0WWbB6UG4">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># calculating the lengths of each split in the dataset</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>split_lengths <span class="op">=</span> [<span class="bu">len</span>(dataset_samsum[split])<span class="cf">for</span> split <span class="kw">in</span> dataset_samsum]</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ei2J9G8j6nPm" data-outputId="b433c87a-6d37-4d64-d5d8-0e1aa9b6ea89">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>split_lengths</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>[14732, 819, 818]</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="JIyvM94k7AjF" data-outputId="d3012539-59d5-40d1-983d-2e4ad097e73b">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Features: </span><span class="sc">{</span>dataset_samsum[<span class="st">&#39;train&#39;</span>]<span class="sc">.</span>column_names<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Features: [&#39;id&#39;, &#39;dialogue&#39;, &#39;summary&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="gozESUOL7JdU" data-outputId="4dfce747-b5fc-4915-df39-4c488fb3362f">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Dialogue:&quot;</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dataset_samsum[<span class="st">&quot;test&quot;</span>][<span class="dv">1</span>][<span class="st">&quot;dialogue&quot;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Dialogue:
+Eric: MACHINE!
+Rob: That&#39;s so gr8!
+Eric: I know! And shows how Americans see Russian ;)
+Rob: And it&#39;s really funny!
+Eric: I know! I especially like the train part!
+Rob: Hahaha! No one talks to the machine like that!
+Eric: Is this his only stand-up?
+Rob: Idk. I&#39;ll check.
+Eric: Sure.
+Rob: Turns out no! There are some of his stand-ups on youtube.
+Eric: Gr8! I&#39;ll watch them now!
+Rob: Me too!
+Eric: MACHINE!
+Rob: MACHINE!
+Eric: TTYL?
+Rob: Sure :)
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ddWHJmfC7VbA" data-outputId="d171f06c-0da9-47ce-8f3c-df312c2b5ff5">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Summary:&quot;</span>)</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dataset_samsum[<span class="st">&quot;test&quot;</span>][<span class="dv">1</span>][<span class="st">&quot;summary&quot;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Summary:
+Eric and Rob are going to watch a stand-up on youtube.
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:87}"
+id="Ic8npnS67WDn" data-outputId="7f6d7aa9-670a-4e67-e07c-0288d661c08b">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>dataset_samsum[<span class="st">&#39;test&#39;</span>][<span class="dv">0</span>][<span class="st">&#39;dialogue&#39;</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ELsSLoA67hJX" data-outputId="e81b7ec4-aff7-4703-c8e0-dfb3fed40bfb">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating pipeline</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>pipe <span class="op">=</span> pipeline(<span class="st">&#39;summarization&#39;</span>, model <span class="op">=</span> model_ckpt )</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Some weights of PegasusForConditionalGeneration were not initialized from the model checkpoint at google/pegasus-cnn_dailymail and are newly initialized: [&#39;model.decoder.embed_positions.weight&#39;, &#39;model.encoder.embed_positions.weight&#39;]
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5FTVD0El7yXW" data-outputId="5bad9b7e-efba-4c0b-c42e-5762d6d2e1e5">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>pipe_out <span class="op">=</span> pipe(dataset_samsum[<span class="st">&#39;test&#39;</span>][<span class="dv">0</span>][<span class="st">&#39;dialogue&#39;</span>] )</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(pipe_out)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Your max_length is set to 128, but your input_length is only 122. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer(&#39;...&#39;, max_length=61)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>[{&#39;summary_text&#39;: &quot;Amanda: Ask Larry Amanda: He called her last time we were at the park together .&lt;n&gt;Hannah: I&#39;d rather you texted him .&lt;n&gt;Amanda: Just text him .&quot;}]
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="NODw1U0w8GRs" data-outputId="a8c92520-6c35-4369-f8b4-877c914f1ea9">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(pipe_out[<span class="dv">0</span>][<span class="st">&#39;summary_text&#39;</span>].replace(<span class="st">&quot; .&lt;n&gt;&quot;</span>, <span class="st">&quot;.</span><span class="ch">\n</span><span class="st">&quot;</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Amanda: Ask Larry Amanda: He called her last time we were at the park together.
+Hannah: I&#39;d rather you texted him.
+Amanda: Just text him .
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="OOqyyYN78ajB">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_batch_sized_chunks(list_of_elements, batch_size):</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;split the dataset into smaller batches that we can process simultaneously</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Yield successive batch-sized chunks from list_of_elements.&quot;&quot;&quot;</span></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(list_of_elements), batch_size):</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> list_of_elements[i : i <span class="op">+</span> batch_size]</span></code></pre></div>
+</div>
+<div class="cell code" id="NQVvAKGe8pvQ">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_metric_on_test_ds(dataset, metric, model, tokenizer,</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>                               batch_size<span class="op">=</span><span class="dv">16</span>, device<span class="op">=</span>device,</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>                               column_text<span class="op">=</span><span class="st">&quot;article&quot;</span>,</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>                               column_summary<span class="op">=</span><span class="st">&quot;highlights&quot;</span>):</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    article_batches <span class="op">=</span> <span class="bu">list</span>(generate_batch_sized_chunks(dataset[column_text], batch_size))</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    target_batches <span class="op">=</span> <span class="bu">list</span>(generate_batch_sized_chunks(dataset[column_summary], batch_size))</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> article_batch, target_batch <span class="kw">in</span> tqdm(</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">zip</span>(article_batches, target_batches), total<span class="op">=</span><span class="bu">len</span>(article_batches)):</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>        inputs <span class="op">=</span> tokenizer(article_batch, max_length<span class="op">=</span><span class="dv">1024</span>,  truncation<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>                        padding<span class="op">=</span><span class="st">&quot;max_length&quot;</span>, return_tensors<span class="op">=</span><span class="st">&quot;pt&quot;</span>)</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>        summaries <span class="op">=</span> model.generate(input_ids<span class="op">=</span>inputs[<span class="st">&quot;input_ids&quot;</span>].to(device),</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>                         attention_mask<span class="op">=</span>inputs[<span class="st">&quot;attention_mask&quot;</span>].to(device),</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>                         length_penalty<span class="op">=</span><span class="fl">0.8</span>, num_beams<span class="op">=</span><span class="dv">8</span>, max_length<span class="op">=</span><span class="dv">128</span>)</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>        <span class="co">&#39;&#39;&#39; parameter for length penalty ensures that the model does not generate sequences that are too long. &#39;&#39;&#39;</span></span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Finally, we decode the generated texts,</span></span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>        <span class="co"># replace the  token, and add the decoded texts with the references to the metric.</span></span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a>        decoded_summaries <span class="op">=</span> [tokenizer.decode(s, skip_special_tokens<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>                                clean_up_tokenization_spaces<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>               <span class="cf">for</span> s <span class="kw">in</span> summaries]</span>
+<span id="cb51-24"><a href="#cb51-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-25"><a href="#cb51-25" aria-hidden="true" tabindex="-1"></a>        decoded_summaries <span class="op">=</span> [d.replace(<span class="st">&quot;&quot;</span>, <span class="st">&quot; &quot;</span>) <span class="cf">for</span> d <span class="kw">in</span> decoded_summaries]</span>
+<span id="cb51-26"><a href="#cb51-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-27"><a href="#cb51-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-28"><a href="#cb51-28" aria-hidden="true" tabindex="-1"></a>        metric.add_batch(predictions<span class="op">=</span>decoded_summaries, references<span class="op">=</span>target_batch)</span>
+<span id="cb51-29"><a href="#cb51-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-30"><a href="#cb51-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">#  Finally compute and return the ROUGE scores.</span></span>
+<span id="cb51-31"><a href="#cb51-31" aria-hidden="true" tabindex="-1"></a>    score <span class="op">=</span> metric.compute()</span>
+<span id="cb51-32"><a href="#cb51-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> score</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:191,&quot;referenced_widgets&quot;:[&quot;c2724799deae4656a0bd84c5bc86f2eb&quot;,&quot;ffd0a8009b454dafa288e12e558ec48f&quot;,&quot;9170eb34bdf94166b792b60fb1550dab&quot;,&quot;013e8e1f54dd41ab89e5e184d6504093&quot;,&quot;cfe61a590e7d428abed7aabef32bc14f&quot;,&quot;3a9dde52168f491fbef14b484a217b9a&quot;,&quot;e2e912a8f4904226af09c4b183499ef5&quot;,&quot;cddf8b1055754928960c1b8563e978eb&quot;,&quot;f6d96f57baa745d6ad4aa9d870508ffa&quot;,&quot;9811b9fc2bfe4bafbcefc81586e3121e&quot;,&quot;112bfe6c9ea042cd928d889da66a8350&quot;]}"
+id="8G_thwFz9LMt" data-outputId="4acfcf72-cd75-400d-d3e3-7f825fb86fc4">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>rouge_metric <span class="op">=</span> load_metric(<span class="st">&#39;rouge&#39;</span>)</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>score <span class="op">=</span> calculate_metric_on_test_ds(dataset_samsum[<span class="st">&#39;test&#39;</span>], rouge_metric, model_pegasus, tokenizer, column_text <span class="op">=</span> <span class="st">&#39;dialogue&#39;</span>, column_summary<span class="op">=</span><span class="st">&#39;summary&#39;</span>, batch_size<span class="op">=</span><span class="dv">8</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-21-388971e09d3a&gt;:1: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use &#39;evaluate.load&#39; instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  rouge_metric = load_metric(&#39;rouge&#39;)
+/usr/local/lib/python3.10/dist-packages/datasets/load.py:759: FutureWarning: The repository for rouge contains custom code which must be executed to correctly load the metric. You can inspect the repository content at https://raw.githubusercontent.com/huggingface/datasets/2.19.1/metrics/rouge/rouge.py
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this metric from the next major release of `datasets`.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;c2724799deae4656a0bd84c5bc86f2eb&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 103/103 [18:18&lt;00:00, 10.67s/it]
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:81}"
+id="CPw6ur7D9Pnj" data-outputId="d4c5abc7-aa29-4272-d136-b57c413648fa">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>rouge_names <span class="op">=</span> [<span class="st">&quot;rouge1&quot;</span>, <span class="st">&quot;rouge2&quot;</span>, <span class="st">&quot;rougeL&quot;</span>, <span class="st">&quot;rougeLsum&quot;</span>]</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>rouge_dict <span class="op">=</span> <span class="bu">dict</span>((rn, score[rn].mid.fmeasure ) <span class="cf">for</span> rn <span class="kw">in</span> rouge_names )</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rouge_dict, index <span class="op">=</span> [<span class="st">&#39;pegasus&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+
+  <div id="df-d78e3024-f18e-409d-966e-054a1c152e0b" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>rouge1</th>
+      <th>rouge2</th>
+      <th>rougeL</th>
+      <th>rougeLsum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>pegasus</th>
+      <td>0.015572</td>
+      <td>0.000296</td>
+      <td>0.015553</td>
+      <td>0.015539</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-d78e3024-f18e-409d-966e-054a1c152e0b')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+      const buttonEl =
+        document.querySelector('#df-d78e3024-f18e-409d-966e-054a1c152e0b button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-d78e3024-f18e-409d-966e-054a1c152e0b');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="9DyzytbHOF2B" data-outputId="118acc0c-4185-4cde-9b01-2aa190aec48b">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>dataset_samsum[<span class="st">&#39;train&#39;</span>][<span class="dv">0</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>{&#39;id&#39;: &#39;13818513&#39;,
+ &#39;dialogue&#39;: &quot;Amanda: I baked  cookies. Do you want some?\r\nJerry: Sure!\r\nAmanda: I&#39;ll bring you tomorrow :-)&quot;,
+ &#39;summary&#39;: &#39;Amanda baked cookies and will bring Jerry some tomorrow.&#39;}</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:168,&quot;referenced_widgets&quot;:[&quot;ad058806158b4306a6e4e3ccce35e783&quot;,&quot;ea61d092721242f0924696bdca9e9b1f&quot;,&quot;94c9ff9a144e467fafb8c34fa5516c3c&quot;,&quot;a9ca12a9951d42dbac063aaf2679b292&quot;,&quot;13f874e0dd57425c80032b3050ef2ebc&quot;,&quot;c21591e85bd842a599dac7475212091a&quot;,&quot;26c14559443a4c749f6219c00e3949e1&quot;,&quot;ec232ec2ed9c45abbf048d47a8136bef&quot;,&quot;ad51d1ca591645c7915a5d6b705124f4&quot;,&quot;cf26724687ec40f3b7339ba7eb766fb9&quot;,&quot;675ed4792f0046acb321a2d00c149ffe&quot;,&quot;6efa0085c1434943a346b4c3a22a390f&quot;,&quot;254bf8803160469291ae278f38ae685a&quot;,&quot;cfe2368b04734090a217e648304f80a9&quot;,&quot;c1c6cb7490de4be789efd8374a5d5bf0&quot;,&quot;9df13bf53a0348d6b7d7464392cbe245&quot;,&quot;39eeccb683d9429ab84362082da446ba&quot;,&quot;9cb120f88f894fe28e6a3c7548070cfa&quot;,&quot;f64d28fb9f524345a0bde8ef891d4511&quot;,&quot;6ab3b5b4d8944344a8c0b90fcadf8408&quot;,&quot;e46ca81fe15e436c9176fd036e227c50&quot;,&quot;0a74815953fe484596eaf3623f9dc9ab&quot;,&quot;bd323c9f18d04aa49e24e13b0bbd5726&quot;,&quot;514dea9b359746d69a67f4b420defa11&quot;,&quot;d03de96d49644f3e89fa9cd73ba623bf&quot;,&quot;6503d18ce5514f9f801624ea8c4d5c46&quot;,&quot;47d4acb9c18c497bb849255f98eb6388&quot;,&quot;134ed24c5bc4461db3aed28592e54ad3&quot;,&quot;48c5c5e3eead414eb0c391567b04e280&quot;,&quot;975a58ba49e3447184b92477bb6e6f8e&quot;,&quot;b4a3e67ef3474090bdfa2f66b60e474e&quot;,&quot;287bef3a7d3c46828a92813c46763542&quot;,&quot;94e23e1f7ab3489095d7a9b94a6cbeb0&quot;]}"
+id="0l-Gmg8COgMh" data-outputId="0f5f91d6-b7e7-4567-d784-e631acab34b7">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convert_examples_to_features(example_batch):</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>    input_encodings <span class="op">=</span> tokenizer(example_batch[<span class="st">&#39;dialogue&#39;</span>] , max_length <span class="op">=</span> <span class="dv">1024</span>, truncation <span class="op">=</span> <span class="va">True</span> )</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> tokenizer.as_target_tokenizer():</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>        target_encodings <span class="op">=</span> tokenizer(example_batch[<span class="st">&#39;summary&#39;</span>], max_length <span class="op">=</span> <span class="dv">128</span>, truncation <span class="op">=</span> <span class="va">True</span> )</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {</span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;input_ids&#39;</span> : input_encodings[<span class="st">&#39;input_ids&#39;</span>],</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;attention_mask&#39;</span>: input_encodings[<span class="st">&#39;attention_mask&#39;</span>],</span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;labels&#39;</span>: target_encodings[<span class="st">&#39;input_ids&#39;</span>]</span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a>dataset_samsum_pt <span class="op">=</span> dataset_samsum.<span class="bu">map</span>(convert_examples_to_features, batched <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ad058806158b4306a6e4e3ccce35e783&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:3946: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6efa0085c1434943a346b4c3a22a390f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;bd323c9f18d04aa49e24e13b0bbd5726&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="VA80MGM-O0aY" data-outputId="7c671534-b4b3-49a2-bd5a-20063fe4c7c3">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>dataset_samsum_pt[<span class="st">&#39;train&#39;</span>][<span class="dv">0</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>{&#39;id&#39;: &#39;13818513&#39;,
+ &#39;dialogue&#39;: &quot;Amanda: I baked  cookies. Do you want some?\r\nJerry: Sure!\r\nAmanda: I&#39;ll bring you tomorrow :-)&quot;,
+ &#39;summary&#39;: &#39;Amanda baked cookies and will bring Jerry some tomorrow.&#39;,
+ &#39;input_ids&#39;: [12195,
+  151,
+  125,
+  7091,
+  3659,
+  107,
+  842,
+  119,
+  245,
+  181,
+  152,
+  10508,
+  151,
+  7435,
+  147,
+  12195,
+  151,
+  125,
+  131,
+  267,
+  650,
+  119,
+  3469,
+  29344,
+  1],
+ &#39;attention_mask&#39;: [1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1],
+ &#39;labels&#39;: [12195, 7091, 3659, 111, 138, 650, 10508, 181, 3469, 107, 1]}</code></pre>
+</div>
+</div>
+<div class="cell code" id="BoUEfczUPBsp">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> DataCollatorForSeq2Seq</span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>seq2seq_data_collator <span class="op">=</span> DataCollatorForSeq2Seq(tokenizer, model<span class="op">=</span>model_pegasus)</span></code></pre></div>
+</div>
+<div class="cell code" id="-qUelnqUPhm4">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> TrainingArguments, Trainer</span></code></pre></div>
+</div>
+<div class="cell code" id="avzPEX7_XwTY">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>trainer_args <span class="op">=</span> TrainingArguments(</span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>    output_dir<span class="op">=</span><span class="st">&#39;pegasus-samsum&#39;</span>, num_train_epochs<span class="op">=</span><span class="dv">1</span>, warmup_steps<span class="op">=</span><span class="dv">500</span>,</span>
+<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>    per_device_train_batch_size<span class="op">=</span><span class="dv">1</span>, per_device_eval_batch_size<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb68-4"><a href="#cb68-4" aria-hidden="true" tabindex="-1"></a>    weight_decay<span class="op">=</span><span class="fl">0.01</span>, logging_steps<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb68-5"><a href="#cb68-5" aria-hidden="true" tabindex="-1"></a>    eval_strategy<span class="op">=</span><span class="st">&#39;steps&#39;</span>, eval_steps<span class="op">=</span><span class="dv">500</span>, save_steps<span class="op">=</span><span class="dv">1000000</span>,</span>
+<span id="cb68-6"><a href="#cb68-6" aria-hidden="true" tabindex="-1"></a>    gradient_accumulation_steps<span class="op">=</span><span class="dv">16</span></span>
+<span id="cb68-7"><a href="#cb68-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" id="3MI6as-CXyvw">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>trainer <span class="op">=</span> Trainer(model<span class="op">=</span>model_pegasus, args<span class="op">=</span>trainer_args,</span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>                  tokenizer<span class="op">=</span>tokenizer, data_collator<span class="op">=</span>seq2seq_data_collator,</span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a>                  train_dataset<span class="op">=</span>dataset_samsum_pt[<span class="st">&quot;train&quot;</span>],</span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>                  eval_dataset<span class="op">=</span>dataset_samsum_pt[<span class="st">&quot;validation&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:141}"
+id="HyJbXOfjZaim" data-outputId="db92a089-93f5-4ab3-8fff-95d5f76ac596">
+<div class="sourceCode" id="cb70"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code></pre></div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='920' max='920' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [920/920 50:17, Epoch 0/1]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+      <th>Validation Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500</td>
+      <td>1.659900</td>
+      <td>1.483296</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>TrainOutput(global_step=920, training_loss=1.8251974468645842, metrics={&#39;train_runtime&#39;: 3020.9298, &#39;train_samples_per_second&#39;: 4.877, &#39;train_steps_per_second&#39;: 0.305, &#39;total_flos&#39;: 5528248038285312.0, &#39;train_loss&#39;: 1.8251974468645842, &#39;epoch&#39;: 0.9991854466467553})</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:98}"
+id="wgr2zymyZntN" data-outputId="3d207a2e-7eb7-40a0-fc5e-f48588bb8e09">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>score <span class="op">=</span> calculate_metric_on_test_ds(</span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>    dataset_samsum[<span class="st">&#39;test&#39;</span>], rouge_metric, trainer.model, tokenizer, batch_size <span class="op">=</span> <span class="dv">2</span>, column_text <span class="op">=</span> <span class="st">&#39;dialogue&#39;</span>, column_summary<span class="op">=</span> <span class="st">&#39;summary&#39;</span></span>
+<span id="cb72-3"><a href="#cb72-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb72-4"><a href="#cb72-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-5"><a href="#cb72-5" aria-hidden="true" tabindex="-1"></a>rouge_dict <span class="op">=</span> <span class="bu">dict</span>((rn, score[rn].mid.fmeasure ) <span class="cf">for</span> rn <span class="kw">in</span> rouge_names )</span>
+<span id="cb72-6"><a href="#cb72-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-7"><a href="#cb72-7" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rouge_dict, index <span class="op">=</span> [<span class="ss">f&#39;pegasus&#39;</span>] )</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 410/410 [13:09&lt;00:00,  1.93s/it]
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="31">
+
+  <div id="df-a66f5047-538d-486a-bce9-3e8f983482b7" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>rouge1</th>
+      <th>rouge2</th>
+      <th>rougeL</th>
+      <th>rougeLsum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>pegasus</th>
+      <td>0.01877</td>
+      <td>0.000346</td>
+      <td>0.018664</td>
+      <td>0.018633</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a66f5047-538d-486a-bce9-3e8f983482b7')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a66f5047-538d-486a-bce9-3e8f983482b7 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a66f5047-538d-486a-bce9-3e8f983482b7');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="7epMhAgM_6Ht" data-outputId="da681246-46fd-493c-b16c-06c9c25f3832">
+<div class="sourceCode" id="cb74"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Save model</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>model_pegasus.save_pretrained(<span class="st">&quot;pegasus-samsum-model&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {&#39;max_length&#39;: 128, &#39;min_length&#39;: 32, &#39;num_beams&#39;: 8, &#39;length_penalty&#39;: 0.8, &#39;forced_eos_token_id&#39;: 1}
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="AdYgfm3DAF-M" data-outputId="ad8f3fe7-404c-484b-f7b6-5c4b8b9e9140">
+<div class="sourceCode" id="cb76"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Save tokenizer</span></span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>tokenizer.save_pretrained(<span class="st">&quot;tokenizer&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>(&#39;tokenizer/tokenizer_config.json&#39;,
+ &#39;tokenizer/special_tokens_map.json&#39;,
+ &#39;tokenizer/spiece.model&#39;,
+ &#39;tokenizer/added_tokens.json&#39;,
+ &#39;tokenizer/tokenizer.json&#39;)</code></pre>
+</div>
+</div>
+<section id="downloading-model" class="cell markdown" id="F2E0myv8FTWl">
+<h1><strong>Downloading model</strong></h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="-Sty-QfMAH7z" data-outputId="80d1ff09-6ea4-4179-f6c5-64ed0a415fe3">
+<div class="sourceCode" id="cb78"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>pegasus<span class="op">-</span>samsum<span class="op">-</span>model</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content/pegasus-samsum-model
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="vaMuGrg-Ettv" data-outputId="fe1e2651-6618-4b0b-eb2c-15c7fce17255">
+<div class="sourceCode" id="cb80"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span><span class="bu">zip</span> <span class="op">-</span>r pegasus<span class="op">-</span>samsum<span class="op">-</span>model.<span class="bu">zip</span> <span class="op">/</span>content<span class="op">/</span>pegasus<span class="op">-</span>samsum<span class="op">-</span>model</span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>  adding: content/pegasus-samsum-model/ (stored 0%)
+  adding: content/pegasus-samsum-model/generation_config.json (deflated 45%)
+  adding: content/pegasus-samsum-model/config.json (deflated 60%)
+  adding: content/pegasus-samsum-model/model.safetensors (deflated 7%)
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:34}"
+id="tcz6Ol3fE-KB" data-outputId="43ea0b2a-9717-4282-e99c-33c2986a8ccd">
+<div class="sourceCode" id="cb82"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a>files.download(<span class="st">&#39;pegasus-samsum-model.zip&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="RihNshh9Fwqf" data-outputId="d03d6fd8-b44c-4fa1-ca96-bea21e3a605d">
+<div class="sourceCode" id="cb85"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>pegasus<span class="op">-</span>samsum</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content/pegasus-samsum
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Nzok6la8HTEo" data-outputId="619ceac0-299d-417c-8e08-05d1928cb301">
+<div class="sourceCode" id="cb87"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span><span class="bu">zip</span> <span class="op">-</span>r pegasus<span class="op">-</span>samsum.<span class="bu">zip</span> <span class="op">/</span>content<span class="op">/</span>pegasus<span class="op">-</span>samsum</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>  adding: content/pegasus-samsum/ (stored 0%)
+  adding: content/pegasus-samsum/runs/ (stored 0%)
+  adding: content/pegasus-samsum/runs/May30_09-23-47_18e80c6ed370/ (stored 0%)
+  adding: content/pegasus-samsum/runs/May30_09-23-47_18e80c6ed370/events.out.tfevents.1717061028.18e80c6ed370.1677.0 (deflated 67%)
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:17}"
+id="IFf0HUiIHbge" data-outputId="559d9278-fca6-4916-e33c-3dbec0b5968c">
+<div class="sourceCode" id="cb89"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>files.download(<span class="st">&#39;pegasus-samsum.zip&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="XfPSuiRqHgLD" data-outputId="4adf4ac6-fc33-4884-d831-fec58f31e3b4">
+<div class="sourceCode" id="cb92"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>tokenizer</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content/tokenizer
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="I6kdmLVSHsg2" data-outputId="11a9edaf-50e1-463a-d5f1-88153d345662">
+<div class="sourceCode" id="cb94"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span><span class="bu">zip</span> <span class="op">-</span>r tokenizer.<span class="bu">zip</span> <span class="op">/</span>content<span class="op">/</span>tokenizer</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>  adding: content/tokenizer/ (stored 0%)
+  adding: content/tokenizer/tokenizer.json (deflated 78%)
+  adding: content/tokenizer/special_tokens_map.json (deflated 82%)
+  adding: content/tokenizer/spiece.model (deflated 50%)
+  adding: content/tokenizer/tokenizer_config.json (deflated 94%)
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:17}"
+id="piY3Xeb0H1qQ" data-outputId="bc6fa35a-2add-415e-fcc5-07813b1d9a86">
+<div class="sourceCode" id="cb96"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>files.download(<span class="st">&#39;tokenizer.zip&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="aQC6FsK6H5mg" data-outputId="7af2b2d8-27a1-4339-99d4-597eccb78eb5">
+<div class="sourceCode" id="cb99"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a>dataset_samsum <span class="op">=</span> load_dataset(<span class="st">&quot;samsum&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/datasets/load.py:1486: FutureWarning: The repository for samsum contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/samsum
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cMYwD8KZOVBl" data-outputId="88729ad1-1b74-4d67-c519-196991152122">
+<div class="sourceCode" id="cb101"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a><span class="co"># relocating to the root</span></span>
+<span id="cb101-2"><a href="#cb101-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="Kt0fqeYQOYca">
+<div class="sourceCode" id="cb103"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(<span class="st">&quot;tokenizer&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="YLyCy6usOg8T">
+<div class="sourceCode" id="cb104"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb104-1"><a href="#cb104-1" aria-hidden="true" tabindex="-1"></a>sample_text <span class="op">=</span> dataset_samsum[<span class="st">&quot;test&quot;</span>][<span class="dv">0</span>][<span class="st">&quot;dialogue&quot;</span>]</span>
+<span id="cb104-2"><a href="#cb104-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb104-3"><a href="#cb104-3" aria-hidden="true" tabindex="-1"></a>reference <span class="op">=</span> dataset_samsum[<span class="st">&quot;test&quot;</span>][<span class="dv">0</span>][<span class="st">&quot;summary&quot;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="QDORmMpVOlaE">
+<div class="sourceCode" id="cb105"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb105-1"><a href="#cb105-1" aria-hidden="true" tabindex="-1"></a>gen_kwargs <span class="op">=</span> {<span class="st">&quot;length_penalty&quot;</span>: <span class="dv">1</span>, <span class="st">&quot;num_beams&quot;</span>:<span class="dv">15</span>, <span class="st">&quot;max_length&quot;</span>: <span class="dv">128</span>}</span>
+<span id="cb105-2"><a href="#cb105-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb105-3"><a href="#cb105-3" aria-hidden="true" tabindex="-1"></a>pipe <span class="op">=</span> pipeline(<span class="st">&quot;summarization&quot;</span>, model<span class="op">=</span><span class="st">&quot;pegasus-samsum-model&quot;</span>,tokenizer<span class="op">=</span>tokenizer)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="urDKPR9JOpwB" data-outputId="8c181481-4289-4e1a-9154-3eeedacc1ace">
+<div class="sourceCode" id="cb106"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb106-1"><a href="#cb106-1" aria-hidden="true" tabindex="-1"></a><span class="co"># original dialogues</span></span>
+<span id="cb106-2"><a href="#cb106-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dialogue:&quot;</span>)</span>
+<span id="cb106-3"><a href="#cb106-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sample_text)</span>
+<span id="cb106-4"><a href="#cb106-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb106-5"><a href="#cb106-5" aria-hidden="true" tabindex="-1"></a><span class="co"># summary given in the dataset</span></span>
+<span id="cb106-6"><a href="#cb106-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Reference Summary:&quot;</span>)</span>
+<span id="cb106-7"><a href="#cb106-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(reference)</span>
+<span id="cb106-8"><a href="#cb106-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb106-9"><a href="#cb106-9" aria-hidden="true" tabindex="-1"></a><span class="co"># summary generated by the model</span></span>
+<span id="cb106-10"><a href="#cb106-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Model Summary:&quot;</span>)</span>
+<span id="cb106-11"><a href="#cb106-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(pipe(sample_text, <span class="op">**</span>gen_kwargs)[<span class="dv">0</span>][<span class="st">&quot;summary_text&quot;</span>])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Your max_length is set to 128, but your input_length is only 122. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer(&#39;...&#39;, max_length=61)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Dialogue:
+Hannah: Hey, do you have Betty&#39;s number?
+Amanda: Lemme check
+Hannah: &lt;file_gif&gt;
+Amanda: Sorry, can&#39;t find it.
+Amanda: Ask Larry
+Amanda: He called her last time we were at the park together
+Hannah: I don&#39;t know him well
+Hannah: &lt;file_gif&gt;
+Amanda: Don&#39;t be shy, he&#39;s very nice
+Hannah: If you say so..
+Hannah: I&#39;d rather you texted him
+Amanda: Just text him 🙂
+Hannah: Urgh.. Alright
+Hannah: Bye
+Amanda: Bye bye
+
+Reference Summary:
+Hannah needs Betty&#39;s number but Amanda doesn&#39;t have it. She needs to contact Larry.
+
+Model Summary:
+Hannah is looking for Betty&#39;s number. Amanda can&#39;t find it. Larry called Betty last time they were at the park together. Hannah wants Amanda to text him.
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="4xHNPB7qOtP5">
+<div class="sourceCode" id="cb109"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
