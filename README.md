@@ -27,7 +27,7 @@ To run this project on Google Colab, follow these steps:
 
 1. Open the provided Google Colab notebook link.
 2. Ensure you have a Google account to save a copy of the notebook.
-3. Use a Gpu instead of a CPU a heavy processing is needed to be performed.
+3. Use a GPU instead of a CPU a heavy processing is needed to be performed.
 4. Follow the instructions within the notebook to install the required libraries.
 
 The necessary Python libraries include:
